@@ -12,7 +12,7 @@ app.use(bodyParser.json());
   
 // Creates a server which runs on port 3000 and  
 // can be accessed through localhost:3000 
-app.listen(3000, function() { 
+app.listen(process.env.PORT||3000, function() { 
     console.log('server running on port 3000'); 
 } ) 
   
