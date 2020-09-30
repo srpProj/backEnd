@@ -23,7 +23,7 @@ app.get("/",function(req,res){
 });
 // Function callName() is executed whenever  
 // url is of the form localhost:3000/name 
-app.post('/', callName); 
+app.post('/mlcode', callName); 
   
 function callName(req, res) { 
 
